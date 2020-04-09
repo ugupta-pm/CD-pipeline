@@ -16,3 +16,4 @@ after_success:
   - git config --global user.email $EMAIL
   - pip install python-semantic-release
   
+  
