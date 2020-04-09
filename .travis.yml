@@ -11,7 +11,7 @@ after_success:
 - git config --global user.name $USERNAME
 - git config --global user.email $EMAIL
 - pip install python-semantic-release
-- semantic-release --major publish
+- semantic-release --patch version
 
 deploy:
   provider: elasticbeanstalk
@@ -26,4 +26,3 @@ deploy:
   bucket_name: fullpipeline
   bucket_path: fullpipeline
 
-  
