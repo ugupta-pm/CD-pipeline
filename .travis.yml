@@ -18,7 +18,7 @@ deploy:
     secure: q8Bk0rNP42wdASw3F35KsGIqXw7801HO+cF0j1phNqq+JVpTyqT/TPiwJQinEkkEa7FCFAZGUdboD1cEu9iUc7ARkyh1IP+V5hGN2ddk0+JFdHeFo3saLnPdq877O13OPtX5zq2cF9F45QysdP4A4eAmXw7O5DY+xZDaav19T0JCm3n0//pHUumFaejatPVfjvcOmfmgIrqX0Pb2qEx7hLRNaFqHVBMsSWLyGcCLPR2q0m3di+Ru38iV3LdFDfhaJEoQfefK45KjBPqyg8hPOVsG2X7ygYGvQE6oaBWTGdZF/qhrG5xeyeYHt3/1QffyNco3VGwcAmfrKSXOKbMC9sC/dT39QiX1fyalfMWjkvDk8g5Ro8f8m9cX/Eo6PSHNwV00vMpGn0G3qYZLKa2ohu/Pe24OT5rs758b1Wyoxyo+mq8XrmsVOxdCVsar99xmQ9Lu2+QffAUb+Z0iT3SzDrmWEONhYJ2tPcfQ3Ylisjg+0M01mDdpytqjOiflLX8VqFIjJZRonNPCM0+K5TZnwgD1lQDE9uRJmzgb5OhUFm7VPjLNnrXkZQzxQwMpeYSVtvunTj2WvR6jAF2gIXL+JHuSbeOW7PPHmMmxh1pSZALEORO0CNxbnM1p2sf+A+XzfvoOSmJ3CWjAvOg9409yX5G1MyNnFqVXnxIbqPzfjdE=
   region: us-west-2
   app: End_to_End_Pipeline
-  env: End_to_End_Pipeline-test
+  env: End-to-End-Pipeline-test
   on:
     repo: ugupta-pm/CD-pipeline
   bucket_name: fullpipeline
