@@ -26,3 +26,4 @@ deploy:
   bucket_name: fullpipeline
   bucket_path: fullpipeline
 
+  
