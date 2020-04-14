@@ -3,6 +3,7 @@ python:
 - '3.6'
 script:
 - python3 -m pytest tests/
+
 install:
 - pip install pylint==1.8.2
 - pip3 install --extra-index-url $EXTRA_INDEX_URL --trusted-host $TRUSTED_HOST -r
@@ -28,6 +29,6 @@ deploy:
     branch: develop
 
 
-    
+
 
 
