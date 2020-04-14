@@ -3,6 +3,8 @@ python:
 - '3.6'
 script:
 - python3 -m pytest tests/
+- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
+
 install:
 - pip install pylint==1.8.2
 - pip3 install --extra-index-url $EXTRA_INDEX_URL --trusted-host $TRUSTED_HOST -r
@@ -28,6 +30,6 @@ deploy:
     branch: develop
 
 
-    
+
 
 
