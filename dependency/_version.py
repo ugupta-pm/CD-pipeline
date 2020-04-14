@@ -1,6 +1,6 @@
 '''This module has the version number
 '''
-VERSION = '20.0.0'
+VERSION = '21.0.0'
 
 
 
