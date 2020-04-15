@@ -7,8 +7,8 @@ from typing import Tuple
 
 import ndebug
 
-from .errors import UnknownCommitMessageStyleError
-from .parser_helpers import ParsedCommit, parse_text_block, re_breaking
+from errors import UnknownCommitMessageStyleError
+from parser_helpers import ParsedCommit, parse_text_block, re_breaking
 
 debug = ndebug.create(__name__)
 
@@ -88,3 +88,6 @@ def parse_commit_message(message: str) -> Tuple[int, str, str, Tuple[str, str, s
         parsed.group("scope"),
         (parsed.group("subject"), body, footer),
     )
+
+def lol():
+    return 'holla'
