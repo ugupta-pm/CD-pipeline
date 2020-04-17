@@ -1,2 +1,2 @@
-def parse_commit_message():
+def parser():
     return 'Hello'
