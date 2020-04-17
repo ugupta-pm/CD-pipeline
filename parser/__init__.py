@@ -1,1 +1,1 @@
-from new_parser import commit_parser
+from commit_parser.new_parser import commit_parser
