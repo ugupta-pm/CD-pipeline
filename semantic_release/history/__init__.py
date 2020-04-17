@@ -13,6 +13,8 @@ from .logs import evaluate_version_bump  # noqa
 
 from .parser_angular import parse_commit_message as angular_parser  # noqa isort:skip
 from .parser_tag import parse_commit_message as tag_parser  # noqa isort:skip
+from .dummy import my_parser as personal_parser
+
 
 debug = ndebug.create(__name__)
 
