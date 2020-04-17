@@ -1,1 +1,0 @@
-from commit_parser.new_parser import parse as angular_parser
